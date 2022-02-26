@@ -1,0 +1,17 @@
+header	{
+	background-color: #789395;
+	height: 120px;
+}
+footer {
+	background-color: #789395;
+}
+.icopadding {
+	padding-top: 12px;
+}
+.iconfoo {
+	padding-top: 20px;
+
+}
+.navbar-collapse {
+	justify-content: right;
+}
