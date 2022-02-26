@@ -1,6 +1,10 @@
-header	{
-	background-color: #789395;
-	height: 120px;
+* {
+	font-family: 'Dosis', sans-serif;
+	font-family: 'Mochiy Pop P One', sans-serif;
+	font-family: 'Mukta', sans-serif;
+}
+nav {
+	background-color: orange;
 }
 footer {
 	background-color: #789395;
@@ -14,4 +18,173 @@ footer {
 }
 .navbar-collapse {
 	justify-content: right;
+}
+
+.nosotros-padding {
+	padding-top: 25px;
+}
+.backgrd {
+	background-image: url(../assets/img/paisaje.jpg);
+	background-repeat: no-repeat;                                /*hace que no se repita la imagen*/
+	background-position: center;                                 /*posiciona imagen en el centro*/
+	background-size: cover;                                      /*adapta la imagen en el contenedor*/
+	      
+}
+
+/*----------------------------------FORMULARIO DE CONTACTO INICIO------------------------------------------------*/
+.contact_form{  
+  width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+}
+
+
+.input{                                           /*modifico casilleros a gusto*/
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px;                                     /*defino ancho campo texto*/
+  height: 150px;                                    /*defino altura campo texto*/
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+.button2{
+  height: 28px; 
+  padding-left: 5px;
+  padding-right: 23px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: initial;
+  background-color: #ed6b45;          /*cambia el color del boton*/
+  border-color: #ed6b45;              /*cambia el color del borde del boton*/
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 405px;   
+  cursor: pointer;
+}
+
+.h1_contacto{
+  font-size: 30px;  
+  text-align: left; 
+  padding-bottom: 20px; 
+  color: black;
+}
+
+
+.h3_contacto{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: black;   
+}
+/*---------------------------------------FORMULARIO DE CONTACTO FIN----------------------------------------------*/
+
+@media(max-width: 768px){
+	/*--------INICIO DE FORMULARIO MQUERIE---------*/
+.contact_form{  
+  width: 320px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+}
+
+
+.input{                                           
+  background-color: #fbfbfb; 
+  width: 250px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 250px;                                    
+  height: 150px;                                    
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+.button2{
+  height: 28px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 1px; 
+  margin-top: -60px;   
+  text-transform: initial;
+  background-color: #ed6b45;          
+  border-color: #ed6b45;              
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 250px;   
+  cursor: pointer;
+}
+
+.h1_contacto{
+  font-size: 30px;  
+  text-align: left; 
+  padding-bottom: 20px; 
+  color: black;
+}
+
+
+.h3_contacto{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: black;   
+}
+/*--------FIN DE FORMULARIO MQUERIE---------*/
 }
